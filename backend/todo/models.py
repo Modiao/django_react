@@ -7,5 +7,5 @@ class Todo(models.Model):
     description = models.TextField()
     completed = models.BooleanField(default=False)
 
-    def _str_(self):
+    def _str_(self)00:
         return self.title
